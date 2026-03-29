@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Markets, monetary policy, jobs, housing, and the economic forces shaping American financial life.">
+<title>Economy — The Federal Times</title>
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+
+<!-- COOKIE BANNER -->
+<div id="cookie-banner" style="display:none">
+  <p>We use cookies to enhance your experience. By using The Federal Times, you agree to our <a href="cookie-policy.html">Cookie Policy</a> and <a href="privacy.html">Privacy Policy</a>.</p>
+  <div class="cookie-btns">
+    <button class="btn-accept" onclick="closeCookie('accepted')">Accept All</button>
+    <button class="btn-reject" onclick="closeCookie('rejected')">Reject</button>
+    <button class="btn-customize" onclick="closeCookie('customized')">Customize</button>
+  </div>
+</div>
+
+<!-- TICKER -->
+<div id="ticker-bar">
+  <div class="ticker-label">BREAKING</div>
+  <div style="overflow:hidden;flex:1">
+    <div class="ticker-track">
+      <span>Federal Reserve Signals Rate Cut Decision Amid Economic Uncertainty</span>
+      <span>Senate Passes Landmark AI Regulation Act — What It Means For You</span>
+      <span>US Cybersecurity Agency Issues Critical Alert For Infrastructure Systems</span>
+      <span>Smart Cities Initiative Expands to 40 U.S. Metropolitan Areas</span>
+      <span>Healthcare Technology Breakthrough: AI Detects Early Cancer With 97% Accuracy</span>
+      <span>Federal Reserve Signals Rate Cut Decision Amid Economic Uncertainty</span>
+      <span>Senate Passes Landmark AI Regulation Act</span>
+      <span>US Cybersecurity Agency Issues Critical Alert For Infrastructure Systems</span>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="header-top">
+    <div class="logo-block">
+      <a class="logo-name" href="../index.html">THE FEDERAL TIMES</a>
+      <div class="logo-tagline">America's Trusted Source for News &amp; Analysis</div>
+    </div>
+    <div class="header-meta">
+      <div class="header-date" id="header-date"></div>
+      <button class="header-cta-btn" onclick="openModal('Breaking News Alerts — Free')">⚡ Get Breaking Alerts</button>
+    </div>
+  </div>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="article.html" >Top Story</a>
+    <a href="politics.html" >Politics</a>
+    <a href="economy.html" class="active">Economy</a>
+    <a href="technology.html" >Technology</a>
+    <a href="health.html" >Health</a>
+    <a href="world.html" >World</a>
+    <a href="about.html" >About</a>
+    <a href="subscribe.html" >Subscribe</a>
+    <a href="contact.html" >Contact</a>
+  </nav>
+</header>
+
+<div class="page-banner">
+  <div class="page-banner-eyebrow">Section</div>
+  <h1>Economy</h1>
+  <p>Markets, monetary policy, jobs, housing, and the economic forces shaping American financial life.</p>
+</div>
+<div class="container">
+  <div class="section">
+    <div class="section-header"><div class="section-label">Latest</div><div class="section-title">Top Stories</div></div>
+    <div class="news-grid">
+      
+      <div class="news-card glow-hover" onclick="window.location='article.html'">
+        <div class="card-img"><img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400&q=70" alt="" loading="lazy"></div>
+        <div class="card-cat">Markets</div>
+        <div class="card-title">Dow Surges 487 Points After Fed's Dovish Signal — What Investors Need to Know</div>
+        <div class="card-excerpt">A detailed breakdown of sector performance and what the market's reaction tells us about investor sentiment.</div>
+        <div class="card-meta">Marcus Reynolds · Today</div>
+      </div>
+      <div class="news-card glow-hover" onclick="window.location='article.html'">
+        <div class="card-img"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&q=70" alt="" loading="lazy"></div>
+        <div class="card-cat">Jobs</div>
+        <div class="card-title">March Jobs Report: 280,000 New Positions Beat All Forecasts</div>
+        <div class="card-excerpt">Healthcare and technology lead hiring gains as the labor market defies expectations for a third consecutive month.</div>
+        <div class="card-meta">Rachel Moore · Today</div>
+      </div>
+      <div class="news-card glow-hover" onclick="window.location='article.html'">
+        <div class="card-img"><img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=400&q=70" alt="" loading="lazy"></div>
+        <div class="card-cat">Housing</div>
+        <div class="card-title">Housing Market 2026: Mortgage Applications Spike 38% After Fed Signals</div>
+        <div class="card-excerpt">The first meaningful surge in refinancing activity in nearly two years suggests a thawing real estate market.</div>
+        <div class="card-meta">Nina Foster · Today</div>
+      </div>
+      <div class="sidebar-widget">
+        <div class="widget-title">📩 Stay Informed</div>
+        <p style="font-size:.78rem;color:rgba(255,255,255,.65);line-height:1.6;margin-bottom:16px;">Get the latest Economy coverage delivered to your inbox every morning.</p>
+        <button class="btn-neon" style="width:100%;margin-bottom:14px;" onclick="openModal('Economy Daily Briefing — Free')">Subscribe Free →</button>
+        <a href="subscribe.html" style="display:block;text-align:center;padding:10px;border:2px solid rgba(255,255,255,.3);color:#fff;font-family:Syncopate,sans-serif;font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;" onmouseover="this.style.borderColor='#00FFCC';this.style.color='#00FFCC'" onmouseout="this.style.borderColor='rgba(255,255,255,.3)';this.style.color='#fff'">All Subscription Plans →</a>
+      </div>
+    </div>
+  </div>
+  <div style="text-align:center;padding:40px 0">
+    <button class="btn-neon" onclick="openModal('Breaking News Alerts — Free')">⚡ Get Breaking News Alerts</button>
+  </div>
+</div>
+<!-- FOOTER -->
+<footer>
+  <div class="footer-main">
+    <div class="footer-col">
+      <div class="footer-logo">THE FEDERAL TIMES</div>
+      <p class="footer-about">America's trusted source for authoritative news coverage and investigative journalism since 2019.</p>
+      <div class="social-links">
+        <a class="social-link" href="#" title="X">&#120143;</a>
+        <a class="social-link" href="#" title="Facebook">f</a>
+        <a class="social-link" href="#" title="LinkedIn">in</a>
+        <a class="social-link" href="#" title="YouTube">&#9654;</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">Sections</div>
+      <ul class="footer-links">
+        <li><a href="politics.html">Politics</a></li>
+        <li><a href="economy.html">Economy</a></li>
+        <li><a href="technology.html">Technology</a></li>
+        <li><a href="health.html">Health</a></li>
+        <li><a href="world.html">World News</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">Company</div>
+      <ul class="footer-links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="subscribe.html">Subscribe</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">Legal</div>
+      <ul class="footer-links">
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Service</a></li>
+        <li><a href="disclaimer.html">Disclaimer</a></li>
+        <li><a href="cookie-policy.html">Cookie Policy</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 The Federal Times. All rights reserved. Washington, D.C.</p>
+    <div class="footer-legal">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+      <a href="disclaimer.html">Disclaimer</a>
+      <a href="cookie-policy.html">Cookie Policy</a>
+    </div>
+  </div>
+</footer>
+
+<!-- MODAL -->
+<div id="modal-overlay" onclick="closeModal(event)">
+  <div class="modal-box" onclick="event.stopPropagation()">
+    <div class="modal-header">
+      <h3>&#128272; Join The Federal Times</h3>
+      <button class="modal-close" onclick="closeModal()">&#10005;</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-plan-badge" id="modal-plan-badge">Free Subscription</div>
+      <div class="modal-form-row"><label>Full Name *</label><input type="text" class="modal-input" id="modal-name" placeholder="Enter your full name"></div>
+      <div class="modal-form-row"><label>Email Address *</label><input type="email" class="modal-input" id="modal-email" placeholder="your@email.com"></div>
+      <div class="modal-form-row"><label>Phone Number</label><input type="tel" class="modal-input" id="modal-phone" placeholder="+1 (555) 000-0000"></div>
+      <div class="modal-form-row"><label>Selected Plan</label><input type="text" class="modal-input" id="modal-plan-input" readonly style="background:#f5f5f5;cursor:default"></div>
+      <input type="hidden" id="modal-plan-hidden">
+      <div class="modal-consent">
+        <input type="checkbox" id="modal-consent-check">
+        <label for="modal-consent-check">I agree to the <a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a>, and consent to receive communications from The Federal Times.</label>
+      </div>
+      <button class="modal-submit" onclick="submitModal()">&#10003; Confirm &amp; Subscribe &#8594;</button>
+      <div class="success-msg" id="modal-success" style="display:none">&#127881; Welcome! Check your inbox to confirm your subscription.</div>
+    </div>
+  </div>
+</div>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
